@@ -1,0 +1,49 @@
+@font-face {
+    font-family: idroid;
+    src: url(idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063d1e;
+    --font0: Arial, Helvetica, sans-serif;
+    --font1: ;
+    --font2: 'idroid', sans-serif;
+    
+}
+
+body{
+    font-family: var(--font0);
+    color: var(--cor0);
+    background-color: var(--cor1);
+}
+
+header{
+    background-image: linear-gradient(to bottom, #2FA866, #1A5C37, #063d1e);
+    font-family: var(--font0);
+}
+
+a{
+    color: white;
+    font-family: var(--font0);
+    text-align: right;
+}
+
+h1{
+    color: white;
+    font-family: var(--font2);
+    text-align: center;
+}
+
+p{
+    color: white;
+    font-family: var(--font0);
+    text-align: center;
+}
