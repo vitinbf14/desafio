@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @font-face {
     font-family: idroid;
     src: url(idroid.otf) format(opentype);
@@ -38,12 +40,28 @@ a{
 
 h1{
     color: white;
+    background-image: linear-gradient(to right, #3DDC84, #83E1AD, #c5ebd6);
     font-family: var(--font2);
+    text-align: left;
+}
+
+#cabeçalho {
+    color: white;
+    font-family: var(--font0);
     text-align: center;
 }
 
 p{
     color: white;
     font-family: var(--font0);
+    text-align: left;
+}
+
+footer {
+    background-color: #063d1e;
+}
+
+#rodapé {
+    color: white;
     text-align: center;
 }
